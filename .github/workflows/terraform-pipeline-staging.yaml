@@ -75,7 +75,7 @@ jobs:
           done < file3.txt
 
           tf_config="{\"include\":[$tf_config]}"
-          echo "::set-output name=matrix::$tf_config"
+          echo ":: name=matrix::$tf_config"
 
   terraform:
     name: "Terraform"
